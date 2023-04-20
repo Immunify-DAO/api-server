@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  server_manager:
+    image: ${DAPP_IMAGE:-cartesi/dapp:echo-rust-0.11.1-server}
+
+# docker pull cartesi/dapp:echo-rust-0.11.1-server
